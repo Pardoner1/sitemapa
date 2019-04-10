@@ -1,0 +1,731 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Big Jhon';
+    src: url('font/BIG JOHN.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/HelveticaNeueLTPro-Bd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaRoman';
+    src: url("font/HelveticaNeueLTPro-Roman.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kenyan';
+    src: url("font/kenyan coffee rg.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Shorelines';
+    src: url("font/Shorelines Script Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {	color: inherit; }
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+.grow:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.threed:hover {
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+.border:hover {
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+/* ---------- ID's -------------- */
+
+#logo {
+    margin: 0% 5% 0% 5%;
+}
+#home_menu {
+    margin: 0% 5% 0% 6%;
+}
+#n-carousel {
+	margin: 0px 0px 70px 250px;
+	font-family: 'Kenyan';
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+#n-carousel-b {
+	margin: 0px 0px 0px 250px;
+	font-family: 'Kenyan';
+    font-size: 50px;
+    color: #309bca;
+    text-align: left;
+}
+#modelos1 {
+    margin-top: -2%;
+    margin-left: 50%;
+    position: absolute;
+}
+#modelos2 {
+    
+}
+#n_puc-dzarm {
+	
+}
+/* ---- Números/Resultados Hering ----*/
+
+#n_hering {
+    padding-top: 30px;
+    margin-left: 15%;
+}
+#lojas-brasil-hering {
+    
+}
+#lojas-exterior-hering {
+    
+}
+#t-lojas {
+    margin: -9px 0px 0px 130px;
+    position: absolute;
+}
+#receita-hering {
+    
+}
+#t-valor {
+    margin: -11px 0px 0px 260px;
+    position: absolute;
+}
+.bloco-puc {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	
+}
+/* ---- Fim Números/Resultados Hering ----*/
+
+/* ---- Números/Resultados Hering-KIDS ----*/
+
+#n_hering-kids {
+    padding-top: 60px;
+    margin-left: 15%;
+}
+#lojas_brasil-kids {
+    position: relative;
+}
+#t-lojas-brasil-kids {
+	font-family: 'HelveticaRoman';
+    margin-top: -30px;
+    position: inherit;
+}
+#lojas_exterior-kids {
+    margin: -132px 0px 0px 150px;
+    position: inherit;
+}
+#t-lojas-kids {
+    margin: -9px 0px 0px 130px;
+    position: absolute;
+}
+#valor_hering-kids {
+    margin: -103px 0px 0px 270px;
+    position: inherit;
+}
+#t-valor-kids {
+    margin: -11px 0px 0px 260px;
+    position: absolute;
+}
+/* ---- Fim Números/Resultados Hering-KIDS ----*/
+
+/* ---- Números/Resultados PUC ----*/
+
+#n_puc {
+    margin-top: -25%;
+    margin-left: 5%;
+}
+#lojas_brasil-puc {
+    position: relative;
+}
+#t-lojas-brasil-puc {
+    margin-top: -30px;
+    position: inherit;
+}
+#valor_puc {
+    margin: -116px 0px 0px 150px;
+    position: inherit;
+}
+#t-valor-puc {
+    margin: -11px 0px 0px 140px;
+    position: absolute;
+}
+/* ---- Fim Números/Resultados PUC ----*/
+
+/* ---- Números/Resultados DZARM ----*/
+
+#n_dzarm {
+	
+}
+#lojas_brasil-dzarm {
+    position: relative;
+}
+#t-lojas-brasil-dzarm {
+	font-family: 'HelveticaRoman';
+    margin-top: -30px;
+    position: inherit;
+}
+#valor_dzarm {
+    margin: -130px 0px 0px 140px;
+    position: inherit;
+}
+#t-valor-dzarm {
+    margin: -12px 0px 0px 140px;
+    position: absolute;
+}
+/* ---- Fim Números/Resultados DZARM ----*/
+
+/* ---- MAPA ----*/
+
+#sec-mapa {
+    background: url(../img/bg-mapa.png);
+}
+#mapa {
+    text-align: center;
+	max-height: 895px;
+}
+.legenda {
+	bottom: 380px;
+	position: relative;
+	left: 30%;	
+}
+/* ---- Fim MAPA ----*/
+
+/* ---- Section Conexão ----*/
+
+#sec-conexao {
+    background-color: #174478;
+    padding: 8% 0% 5% 0%;
+	margin: 0% 0% 0% 0%;
+}
+#conexao {
+    margin: 5% 0% 0% 0%;
+    position: relative;
+}
+#hashtag-conexao {
+    position: absolute;
+    margin: -20% 0% 0% 65%;
+}
+#t-conexao {
+    position: absolute;
+    margin: -8% 0% 0% 59%;
+    text-align: left;
+    color: aliceblue;
+    font-size: 13px;
+    width: 200px;
+}
+/* ---- Fim Section Conexão ----*/
+
+/* ---- Section gente ----*/
+
+#sec-gente {
+	background: url("../img/bg-gente.png");
+	background-repeat: repeat;
+    padding: 60px 0px 200px 0px;
+}
+#foto-gente{
+	float: right;
+}
+#t-gente {
+    position: absolute;
+    margin: -9% 0% 0% 1%;
+    text-align: right;
+    width: 170px;
+    font-size: 11px;
+}
+#corpo_sec-desc-gente {
+    margin-left: 30%;
+}
+/* Botão Colaboradores */
+
+.botao-grafico {
+    position: relative;
+}
+.imagem6 {
+    transition: all .5s;
+    display: block;
+    height: auto;
+}
+.imagem6:hover {
+    border: 1px dashed #386c9b;
+    border-radius: 50%;
+    /*-webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));*/
+    /*filter: drop-shadow(5px 7px 1px rgba(0,0,0,.5));*/
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+.overlay-grafico {
+    position: absolute;	
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.botao-grafico:hover .overlay-grafico {
+    opacity: 1;
+}
+/* Fim Botão Colaboradores */
+
+#f-g {
+    float: right;
+    padding-top: 20px;
+}
+#controle_fotos {
+    width: 1020px;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+}
+#top_jeito-de-ser {
+    background-color: #386c9b;
+    color: aliceblue;
+    padding: 10px 0px 10px 0px;
+    width: 510px;
+    height: 40px;
+    display: table;
+}
+#t-top_jeito-de-ser {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#t-colaboradores {
+    float: right;
+    text-align: left;
+    width: 180px;
+    font-family: 'HelveticaRoman';
+    font-size: 13px;
+	color: rgba(128,128,128,1.00);
+    margin: 400px 150px 0px 0px;
+}
+.fotos-jeito {
+    position: relative;
+    width: 170px;
+}
+.images-jeito {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.fotos-jeito:hover .overlay {
+    opacity: 1;
+}
+.texto-image-jeito {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.img-botao{
+	float: right;
+	margin: 20px 50px 0px 0px;
+}
+.alin-left {
+    float: left;
+}
+.alin-right {
+    float: right;
+}
+/* ---- Fim Section Gente ----*/
+
+/* ---- Sec-Empreendedorismo ----*/
+
+#sec-empreendedorismo {
+    background: #309bca;
+    padding: 50px 0px 0px 0px;
+}
+#n-empre {
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+    color: #fee7c5;
+}
+#video-empre {
+    float: left;
+    margin: -130px 0px 0px 0px;
+}
+#reconhecer {
+    position: absolute;
+    float: inherit;
+    width: 100px;
+    margin: 150px 0px 0px -30px;
+}
+#t-video {
+    font-family: 'HelveticaRoman';
+    font-size: 12px;
+    color: #fee7c5;
+    margin: 30px 0px 0px 600px;
+    width: 190px;
+}
+#t-video-empre2 {
+    text-align: right;
+    margin: 120px 0px 0px 0px;
+}
+#video-empre2 {
+    margin: 0px 0px 0px 0px;
+}
+#bloco-video-empre2 {
+    margin: 73px 0px 0px 150px;
+}
+#n-desc-video2 {
+    font-family: 'Kenyan';
+    font-size: 50px;
+    color: #fee7c5;
+    text-align: right;
+}
+/* ---- Fim Sec-Empreendedorismo ----*/
+
+
+/* ---- Sec-Meio Ambiente ----*/
+
+#m-a {
+}
+#bloco-n-m-a {
+    margin: 40px 0px 0px 250px;
+}
+#foto-m-a {
+    float: left;
+    margin: 80px 0px 0px 100px;
+    text-align: left;
+}
+.n-m-a-2 {
+    margin: 60px 0px 0px 0px;
+}
+.n-m-a {
+    font-family: 'Kenyan';
+    font-size: 50px;
+    color: #309bca;
+    text-align: left;
+}
+.n-m-a-span {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 15px;
+    color: #309bca;
+}
+.t-n-m-a {
+    font-family: 'HelveticaRoman';
+    font-size: 10px;
+    text-align: left;
+	color: rgba(148,148,148,1.00);
+}
+.botoes-m-a {
+    margin-top: 60px;
+}
+/* ---- Fim Sec-Meio Ambiente ----*/
+
+/* -------- Sec Down -------------*/
+
+#sec-down {
+    background-image: url(../img/bg-down.png);
+    clear: both;
+    margin: 0px 0px 0px 0px;
+}
+.t-down {
+    font-family: 'kenyan';
+    font-size: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding: 40px 0px 40px 0px;
+}
+.t-down2 {
+    font-family: 'HelveticaRoman';
+    font-size: 10px;
+    color: aliceblue;
+    text-align: left;
+}
+.botao-down {
+    text-align: center;
+}
+/*--Botão--*/
+
+.button {
+    font-family: 'Fjalla One', 'sans-serif';
+    background-color: #00EBFF;
+    border: none;
+    color: #fee7c5;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 0px 100px 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button5 {
+	font-family: 'kenyan';
+	font-size: 18px;
+    background-color: rgba(254,231,197,1.00);
+    color: #309bca;
+}
+.button5:hover {
+    background-color: rgba(254,231,197,0.30);
+    color: rgba(254,231,197,1.00);
+    border: solid;
+}
+/*--Fim Botão--*/
+
+/* -------- Fim Sec Down ---------*/
+
+/* -------- Rodapé ---------------*/
+
+#sec-rodape {
+    background-color: #585856;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 1px 0px;
+}
+#rodape {
+    margin: 0px 0px 0px 100px;
+}
+.home-rodape {
+    padding-top: 10px;
+	margin-left: 15px;
+}
+.t-rodape {
+    font-family: "HelveticaRoman";
+    font-size: 9px;
+    color: aliceblue;
+    text-align: left;
+    margin: 30px 0px 0px 0px;
+}
+.t-rodape2 {
+	font-family: 'HelveticaRoman';
+	font-size: 10px;
+    padding-bottom: 5px;
+	color: #949494;
+	text-align: left;
+}
+.t-rodape3 {
+    float: right;
+	text-align: right;
+    margin: -30px 0px 0px 0px;
+}
+.t-rodape4 {
+    text-align: right;
+    float: right;
+    margin: 10px 0px 0px 0px;
+}
+.t-rodape5 {
+    font-family: 'HelveticaRoman';
+    font-size: 10px;
+    text-align: left;
+    color: #949494;
+}
+.marcas {
+	align-items: baseline;
+    float: right;
+    margin: -100px 0px 0px 0px;
+}
+/* -------- Fim Rodapé ---------------*/
+
+
+/* --------- Estilos ------------ */
+
+.font_menu {
+    font-family: "HelveticaRoman";
+    font-size: 12px;
+}
+.idiomas {
+    margin: 0% 20% 0% 5%;
+}
+.carrosel {
+    position: relative;
+}
+.legenda_carousel {
+    font-family: 'Big Jhon';
+    text-align: left;
+    font-size: 250%;
+    width: 400px;
+    margin: 0% 0% 10% 22%;
+}
+.logos_resultados {
+    width: 70px;
+    margin: 0px 0px 0px 0px;
+}
+.foto-sec-left {
+    text-align: left;
+    padding: 70px 0px 0px 0px;
+}
+.n-desc {
+    font-family: 'Kenyan';
+    font-size: 50px;
+    color: #fee7c5;
+    text-align: left;
+}
+.n-desc-span {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 15px;
+    color: #fee7c5;
+    text-align: left;
+}
+.bg-bege {
+    background-color: #fee7c5;
+    text-align: left;
+    color: #309bca;
+}
+.t-bg-bege {
+    font-family: 'HelveticaRoman';
+    background: #fee7c5;
+    text-align: left;
+    font-size: 10px;
+    color: #309bca;
+}
+.r-t-bg {
+    background: #fee7c5;
+    font-family: 'HelveticaRoman';
+    font-size: 10px;
+    color: #309bca;
+    text-align: left;
+}
+.n-desc-t {
+    font-family: 'HelveticaRoman';
+    font-size: 13px;
+    color: #fee7c5;
+    text-align: left;
+}
+.valores_resultados {
+    font-family: 'Kenyan','Fjalla One', 'sans-serif';
+    font-size: 70px;
+    color: #042351;
+	text-align: center;
+	border-right-style: solid;
+	border-right-color: #fee7c5;
+}
+.desc-numeros {
+	font-family: 'HelveticaRoman';
+    font-size: 15px;
+	text-align: center;
+}
+.t-video {
+    font-family: 'HelveticaRoman';
+    font-size: 12px;
+    color: #fee7c5;
+}
+.icones-conexao {
+    margin: 50px 0px 50px 20px;
+}
+.t-icones-conexao {
+	font-family: 'Helvetica';
+    color: aliceblue;
+    margin-top: 20px;
+}
+.valores_gente {
+    font-family: 'Kenyan';
+    text-align: left;
+    font-size: 55px;
+    color: #386c9b;
+}
+.t-desc-gente {
+    text-align: left;
+    font-family: 'HelveticaRoman';
+    font-size: 13px;
+	color: rgba(128,128,128,1.00);
+    width: 140px;
+}
+.base-t-desc-gente {
+}
+.foto-sec-rigth {
+    text-align: right;
+    padding: 70px 0px 0px 0px;
+}
+.fim {
+    clear: both;
+}
+.n-c {
+	font-family: 'Kenyan';
+    font-size: 70px;
+    color: #fee7c5;
+    text-align: left;
+}
+.t-n-c {
+	font-family: 'HelveticaRoman';
+    font-size: 10px;
+    text-align: left;
+}
+.n-c-span {
+	font-family: 'Fjalla One', 'sans-serif';
+    font-size: 15px;
+    color: #091849;
+}
+.realBr-bege {
+	font-family: 'kenyan';
+    font-size: 15px;
+    color: #fee7c5;
+}
+.realBr-azul-escuro {
+	font-family: 'kenyan';
+    font-size: 15px;
+    color: #042351;
+}
+.realBr-azul-medio {
+	font-family: 'kenyan';
+    font-size: 15px;
+    color: #386c9b;
+}
+.realBr-azul-claro {
+	font-family: 'kenyan';
+    font-size: 15px;
+    color: #309bca;
+}
+
+.base-azul-medio {
+	border-bottom-style: solid;
+	border-bottom-color: #386c9b;
+}
+
+.zoom{transform:scale(2);}
